@@ -19,5 +19,6 @@ sections:
   - Carsales
   - Melbourne Central
   layout: half-width
+layout: work
 ---
 
