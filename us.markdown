@@ -6,5 +6,6 @@ people:
 - person: Frunch Nazzari
 - person: Melissa Ross
 - person: Kane Daniel
+- person: Brodie Lancaster
 ---
 
