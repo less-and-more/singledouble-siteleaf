@@ -5,3 +5,7 @@ position: 1
 header_video_file: 
 ---
 
+# Single what?
+Double who?
+
+We’re named Single Double because we create singular messages in partnership with our clients. One letter, two writers—a single and a double.
