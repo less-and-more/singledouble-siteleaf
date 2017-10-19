@@ -15,6 +15,6 @@ sections:
 ---
 
 # Single what?
-# Double who?
+Double who?
 
 We’re named Single Double because we create singular messages in partnership with our clients. One letter, two writers—a single and a double.
