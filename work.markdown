@@ -8,9 +8,8 @@ sections:
     many industries, establishing consistent brand voices and engaged, active audiences
     — no matter the tone or topic."
   work:
-  - Lifestyles
   - Carsales
-  - Melbourne Central
+  - Lifestyles
   layout: full-width
 - section_title: Credible collaborations
   section_text: 
