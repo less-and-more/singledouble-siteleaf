@@ -7,5 +7,6 @@ people:
 - person: Melissa Ross
 - person: Kane Daniel
 - person: Brodie Lancaster
+layout: us
 ---
 
