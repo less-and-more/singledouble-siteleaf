@@ -27,14 +27,14 @@ defaults:
   values:
     layout: page
 - scope:
-    path: people
-    type: pages
+    path: ''
+    type: people
   values:
     layout: page
     image:
 - scope:
-    path: work
-    type: pages
+    path: ''
+    type: work
   values:
     layout: page
     gallery:
