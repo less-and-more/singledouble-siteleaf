@@ -33,6 +33,7 @@ defaults:
     layout: page
     role:
     image: 
+    is_bw:
 - scope:
     path: ''
     type: work
@@ -41,6 +42,7 @@ defaults:
     gallery:
     - image: 
       vimeo_id: 
+      is_bw:
 permalink: pretty
 main_nav:
 - title: About

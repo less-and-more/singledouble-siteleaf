@@ -14,6 +14,7 @@ sections:
 
     At Single Double, we also think a lot about words. A script, a tweet, a caption or an ad. Ideas might not end up using words, but they always begin with them.
   section_image: 
+  is_bw:
   section_position: left
 - section_title: Turning brands into publishers
   section_text: |-
@@ -21,6 +22,7 @@ sections:
 
     We’re equipped: everyone at Single Double has experience in publishing, writing or editing. We create for audiences, not demographics. We think using cultural vocabulary, not marketing jargon.
   section_image: 
+  is_bw:
   section_position: right
 - section_title: Objective about objectives
   section_text: |-
@@ -30,6 +32,7 @@ sections:
 
     There’s no point making breakfast when it’s dinnertime. Especially if you’re not calling anyone to the table.
   section_image: 
+  is_bw:
   section_position: left
 - section_title: Alone but not lonely
   section_text: |-
@@ -39,6 +42,7 @@ sections:
 
     But we also like being in the sandbox with other kids. We happily collaborate to create campaign, production and distribution efficiencies. In short, we play nice.
   section_image: 
+  is_bw:
   section_position: right
 ---
 
