@@ -15,7 +15,6 @@ sections:
   section_text: 
   work:
   - Lifestyles
-  - Carsales
   - Melbourne Central
   layout: half-width
 layout: work
