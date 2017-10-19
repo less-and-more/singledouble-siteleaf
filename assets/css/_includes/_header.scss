@@ -1,0 +1,189 @@
+header {
+  width: 100%;
+  z-index: 5;
+  position: relative;
+  background: $white;
+}
+
+.nav-container {
+  z-index: 5;
+  padding: 60px 0 60px 60px;
+
+  header & {
+    min-height: 420px;
+  }
+
+  @media (max-width: 900px) {
+    padding: 20px 0 20px 20px;
+  }
+}
+
+.logo-wrap {
+  position: relative;
+  max-width: 716px;
+  z-index: 5;
+
+  @media (max-width: 900px) {
+    max-width: 235px;
+  }
+}
+
+.dots {
+  max-width: 648px;
+  position: absolute;
+  top: 0;
+  right: 0;
+
+  header & {
+    opacity: 0;
+    animation: fadeIn 0.5s linear both;
+    animation-delay: 0.5s;
+  }
+
+  @media (max-width: 900px) {
+    max-width: 212px;
+  }
+}
+
+.logo {
+  max-width: 684px;
+  header & {
+    opacity: 0;
+    animation: fadeIn 0.5s linear both;
+    animation-delay: 1.5s;
+  }
+  @media (max-width: 900px) {
+    max-width: 226px;
+  }
+}
+
+.video-container {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: 3;
+}
+
+.video-container video {
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#menu-toggle {
+  position: fixed;
+  top: 60px;
+  right: 60px;
+  background: transparent url("../images/menu.svg") no-repeat center top;
+  background-size: 100%;
+  border: 0 none;
+  width: 178px;
+  height: 66px;
+  /* Hide the text. */
+  text-indent: 1000%;
+  white-space: nowrap;
+  overflow: hidden;
+  outline: none;
+  opacity: 1;
+  z-index: 3;
+  cursor: pointer;
+  transition: z-index 0.25s linear 0.25s;
+
+  @media (max-width: 900px) {
+    top: 20px;
+    right: 20px;
+    width: 60px;
+    height: 24px;
+  }
+
+  .menu-open & {
+    z-index: 11;
+    transition: none;
+  }
+}
+
+.menu {
+  transform: translateY(-130%);
+  background: $white;
+  transition: all 0.3s ease-in-out;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  padding: 60px;
+  z-index: 10;
+
+  @media (max-width: 900px) {
+    padding: 20px;
+  }
+
+  .menu-open & {
+    transform: translateY(0);
+  }
+}
+
+.nav {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  z-index: 5;
+  position: relative;
+}
+
+.nav li {
+  header & {
+    opacity: 0;
+    animation: fadeNavIn 0.5s linear both;
+    animation-delay: 2.25s;
+
+    &:nth-child(2) {
+      animation-delay: 2.5s;
+    }
+
+    &:nth-child(3) {
+      animation-delay: 3s;
+    }
+
+    &:nth-child(4) {
+      animation-delay: 3.5s;
+    }
+  }
+}
+
+.nav a {
+  color: $blue;
+  display: inline-block;
+  border-bottom: 0 none;
+
+  &:hover {
+    border-bottom: 0 none;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeNavIn {
+  from {
+    opacity: 0;
+    transform: translate3d(0, -20%, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}

@@ -1,0 +1,78 @@
+body.menu-open {
+  overflow: hidden;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+hr {
+  border: 0 none;
+  height: 1px;
+  background: $blue;
+
+  .offset & {
+    margin: 0 60px;
+    @media (max-width: 900px) {
+      margin: 0;
+    }
+  }
+}
+
+.container {
+  max-width: 1600px;
+  padding: 0 60px;
+  margin: 0 auto;
+
+  &.centered {
+    padding: 0 120px;
+    max-width: 1480px;
+  }
+
+  @media (max-width: 900px) {
+    padding: 0 20px;
+
+    &.centered {
+      padding: 0 20px;
+    }
+  }
+}
+
+.wrapper,
+footer {
+  background: $blue;
+  color: $white;
+  z-index: 5;
+  position: relative;
+  padding: 60px 0;
+
+  @media (max-width: 900px) {
+    padding: 60px 0;
+  }
+
+  .flex-grid {
+    margin: 0;
+    padding: 20px 0;
+
+    @media (max-width: 900px) {
+      padding: 0;
+
+      p:first-of-type {
+        margin-bottom: 2em;
+      }
+    }
+  }
+}
+
+.intro {
+  position: relative;
+}
+
+// Contact Page
+
+#map {
+  width: 100%;
+  height: 400px;
+}

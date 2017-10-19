@@ -1,0 +1,46 @@
+@import "../fonts/stanley/StanleyPoster-Regular.css";
+
+@font-face {
+  font-family: "MessinaSansWeb";
+  src: url("../fonts/messina/MessinaSansWeb-Bold.eot"); /* IE9 Compat Modes */
+  src: url("../fonts/messina/MessinaSansWeb-Bold.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/messina/MessinaSansWeb-Bold.woff2") format("woff2"),
+    url("../fonts/messina/MessinaSansWeb-Bold.woff") format("woff"); /* Pretty Modern Browsers */
+  font-weight: 700;
+  font-style: normal;
+  font-stretch: normal;
+  unicode-range: U+000d-FB04;
+}
+
+@font-face {
+  font-family: "MaisonNeue";
+  src: url("../fonts/maison/MaisonMonoWEB-Italic.woff") format("woff2"),
+    url("../fonts/maison/MaisonMonoWEB-Italic.woff") format("woff");
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "MaisonNeue";
+  src: url("../fonts/maison/MaisonMonoWEB-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@mixin mesina {
+  font-family: "MessinaSansWeb", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+@mixin stanley {
+  font-family: "StanleyPoster", Georgia, serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+@mixin maison {
+  font-family: "MaisonNeue", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+}
