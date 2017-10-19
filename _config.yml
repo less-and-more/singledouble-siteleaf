@@ -5,9 +5,6 @@ collections:
   bylines:
     title: Bylines
     output: false
-  clients:
-    title: Clients
-    output: false
   posts:
     title: Posts
     output: true
