@@ -42,6 +42,7 @@ sections:
     But we also like being in the sandbox with other kids. We happily collaborate to create campaign, production and distribution efficiencies. In short, we play nice.
   section_image: 
   is_bw: 
+layout: about
 ---
 
 # Single what?
