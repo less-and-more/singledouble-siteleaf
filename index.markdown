@@ -23,7 +23,6 @@ sections:
     We’re equipped: everyone at Single Double has experience in publishing, writing or editing. We create for audiences, not demographics. We think using cultural vocabulary, not marketing jargon.
   section_image: 
   is_bw:
-  section_position: right
 - section_title: Objective about objectives
   section_text: |-
     We don’t sell you ideas just because we like them. Nor do we expect audiences to just turn up. We convert attention into action, and that means pursuing your objectives from the first brainstorm to the final report.
@@ -43,7 +42,6 @@ sections:
     But we also like being in the sandbox with other kids. We happily collaborate to create campaign, production and distribution efficiencies. In short, we play nice.
   section_image: 
   is_bw:
-  section_position: right
 ---
 
 # Single what?
