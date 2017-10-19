@@ -21,3 +21,8 @@ defaults:
   values:
     layout: page
 permalink: pretty
+main_nav:
+- title: About
+  page: |-
+    Single what?
+    Double who?
