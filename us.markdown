@@ -10,3 +10,6 @@ people:
 layout: us
 ---
 
+### We’re a team of writers, editors, strategists and producers. We use our collective decades of experience to turn brands into publishers that express themselves with substance and clarity.
+
+### Some of our people:
