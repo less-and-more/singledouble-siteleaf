@@ -9,6 +9,15 @@ sections:
     — no matter the tone or topic."
   work:
   - Lifestyles
-  layout: 
+  - Carsales
+  - Melbourne Central
+  layout: full-width
+- section_title: Credible collaborations
+  section_text: 
+  work:
+  - Lifestyles
+  - Carsales
+  - Melbourne Central
+  layout: half-width
 ---
 
