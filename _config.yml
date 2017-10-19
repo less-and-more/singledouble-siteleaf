@@ -31,17 +31,15 @@ defaults:
     type: people
   values:
     layout: page
-    image:
+    image: 
 - scope:
     path: ''
     type: work
   values:
     layout: page
     gallery:
-      - image:
-        vimeo_id:
-
-
+    - image: 
+      vimeo_id: 
 permalink: pretty
 main_nav:
 - title: About
