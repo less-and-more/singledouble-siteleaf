@@ -21,8 +21,8 @@ sections:
     We apply a publishing—rather than an advertising—model to our work for brands. Ad blockers exist. Entertaining-things-that-people-like blockers don’t. So we make entertaining things that people like.
 
     We’re equipped: everyone at Single Double has experience in publishing, writing or editing. We create for audiences, not demographics. We think using cultural vocabulary, not marketing jargon.
-  section_image: 
-  is_bw: 
+  section_image: "/uploads/RC11_Hero.jpg"
+  is_bw: true
 - section_title: Objective about objectives
   section_text: |-
     We don’t sell you ideas just because we like them. Nor do we expect audiences to just turn up. We convert attention into action, and that means pursuing your objectives from the first brainstorm to the final report.
