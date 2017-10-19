@@ -31,6 +31,7 @@ defaults:
     type: people
   values:
     layout: page
+    role:
     image: 
 - scope:
     path: ''
