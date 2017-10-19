@@ -1,0 +1,26 @@
+<body class="{{ page.title | downcase | handleize }}">
+
+{% if page.title == 'About' %}
+
+    <header>
+      <div class="nav-container">
+
+        {% include logo.html %}
+
+        {% include nav.html %}
+
+      </div>
+      <div class="video-container">
+        <video autoplay loop muted>
+          <source src="/assets/video/sd-header-video-720.mp4" type="video/mp4">
+        </video>
+      </div>
+    </header>
+
+    <button id="menu-toggle">Menu</button>
+
+{% else %}
+
+  <button id="menu-toggle">Menu</button>
+
+{% endif %}

@@ -1,0 +1,38 @@
+<footer>
+
+  <div class="container">
+
+    <div class="flex-grid">
+      <div class="col-one-third">
+        <h2>Get in touch:</h2>
+        <p>So what now? Couldn’t be easier. Send us an email at: <a href="mailto:tellmemore@singledouble.co">tellmemore@singledouble.co</a></p>
+      </div>
+      <div class="col-one-third push-left">
+        <h2>Chat with us live.</h2>
+        <p>Want to speak directly to one of our team? Get in touch via the live-chat icon to the right.</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+
+<div class="menu">
+
+  {% include logo.html %}
+  {% include nav.html %}
+
+</div>
+
+</body>
+
+<script src="/assets/js/main-min.js"></script>
+
+{% if page.title == 'Contact' %}
+<script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAjVXeha8ynFcG1lxn58LNHzHoFjjOiBVQ&callback=initMap"></script>
+{% endif %}
+
+{% include slassk.html %}
+
+</html>

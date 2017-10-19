@@ -1,0 +1,30 @@
+{% include head.html %}
+
+{% include header.html %}
+
+<div class="container centered">
+
+  <div class="flex-grid right-to-left">
+    <div class="col-three-quarters">
+      {{ content }}
+    </div>
+  </div>
+
+  {% assign sorted_people = (site.people | sort:"position") %}
+  {% for people in sorted_people %}
+
+    <div class="flex-grid right-to-left">
+      <div class="col-three-quarters">
+        <h3>{{ people.title }}: {{ people.role }}</h3>
+        {{ people.content }}
+      </div>
+      <div class="col-one-quarter push-left">
+        <img src="{{ people.image }}" alt=" " title=" " {% if people.is_bw == true %}class="grayscale"{% endif %} />
+      </div>
+    </div>
+
+  {% endfor %}
+
+</div>
+
+{% include footer.html %}
