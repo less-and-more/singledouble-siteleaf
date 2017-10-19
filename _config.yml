@@ -2,9 +2,6 @@
 title: Single Double
 timezone: UTC
 collections:
-  bylines:
-    title: Bylines
-    output: false
   posts:
     title: Posts
     output: true
