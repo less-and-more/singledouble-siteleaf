@@ -11,6 +11,8 @@ header {
 
   header & {
     min-height: 420px;
+    height: calc(9/16 * 100vw);
+    box-sizing: border-box;
   }
 
   @media (max-width: 900px) {
