@@ -9,7 +9,7 @@ sections:
     — no matter the tone or topic."
   work:
   - Lifestyles
-  - Carsales
+  - Builders Academy
   layout: full-width
 - section_title: Credible collaborations
   section_text: 
