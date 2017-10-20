@@ -19,6 +19,7 @@
 
 </div>
 
+<div id="about"></div>
 {% for section in page.sections %}
 
   {% if section.section_position == "left" %}
@@ -38,7 +39,7 @@
         <img src="{{ section.section_image }}" alt=" " title=" " {% if section.is_bw == true %}class="grayscale"{% endif %} />
       {% endif %}
 
-      {% if forloop.last == false || section.section_image != '' %}
+      {% if forloop.last == false or section.section_image != '' %}
         <hr>
       {% endif %}
 

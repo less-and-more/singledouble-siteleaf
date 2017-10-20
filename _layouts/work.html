@@ -6,13 +6,13 @@
 
   {% if section.layout == "full-width" %}
 
-    <div class="container centered">
+    {% if section.section_text != '' and section.section_text != null %}
 
-      {% if forloop.first == false %}
-        <hr>
-      {% endif %}
+      <div class="container centered">
 
-      {% if section.section_text != '' and section.section_text != null %}
+        {% if forloop.first == false %}
+          <hr>
+        {% endif %}
 
         <div class="flex-grid">
 
@@ -22,19 +22,24 @@
           <div class="col-half push-left">
             {{ section.section_text | markdownify }}
           </div>
+
         </div>
 
-      {% else %}
+      </div>
 
-        <div class="container">
-          <h1 class="section-title">{{ section.section_title }}</h1>
-        </div>
+    {% else %}
+    
+    <div class="container">
 
-      {% endif %}
+      <hr>
+
+      <h1 class="section-title">{{ section.section_title }}</h1>
 
     </div>
 
-    {% assign sorted_work = (section.work | sort:"position") %}
+    {% endif %}
+
+    {% assign sorted_work = section.work | sort:"position" %}
     {% for work in site.work %}
 
       {% for linked_work in sorted_work %}
@@ -94,25 +99,34 @@
 
     {% if section.section_text != '' and section.section_text != null %}
 
-      <div class="flex-grid">
+      <div class="container centered">
 
-        <div class="col-half">
-          {{ section.section_title | markdownify }}
+        <div class="flex-grid">
+
+          <div class="col-half">
+            {{ section.section_title | markdownify }}
+          </div>
+          <div class="col-half push-left">
+            {{ section.section_text | markdownify }}
+          </div>
+
         </div>
-        <div class="col-half push-left">
-          {{ section.section_text | markdownify }}
-        </div>
+
       </div>
 
     {% else %}
 
       <div class="container">
+
+        <hr>
+
         <h1 class="section-title">{{ section.section_title }}</h1>
+
       </div>
 
     {% endif %}
 
-    {% assign sorted_work = (section.work | sort:"position") %}
+    {% assign sorted_work = section.work | sort:"position" %}
     {% for work in site.work %}
 
       {% for linked_work in sorted_work %}

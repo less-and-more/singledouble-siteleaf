@@ -10,7 +10,7 @@
     </div>
   </div>
 
-  {% assign sorted_people = (site.people | sort:"position") %}
+  {% assign sorted_people = site.people | sort:"position" %}
   {% for people in sorted_people %}
 
     <div class="flex-grid right-to-left">

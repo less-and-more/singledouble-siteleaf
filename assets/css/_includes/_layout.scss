@@ -40,6 +40,11 @@ hr {
   }
 }
 
+// Added to avoid blue pixel at top of browser from previous div
+#about {
+  margin-top: 1px;
+}
+
 .wrapper,
 footer {
   background: $blue;
