@@ -22,7 +22,7 @@ sections:
   work:
   - 'Carsales: The Best Car in the World'
   - 
-  layout: 
+  layout: full-width
 layout: work
 ---
 
