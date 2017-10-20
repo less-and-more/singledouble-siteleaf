@@ -15,7 +15,6 @@ sections:
   section_text: 
   work:
   - 'Carsales: The Best Car in the World'
-  - 
   layout: full-width
 - section_title: Credible collaborations
   section_text: 
