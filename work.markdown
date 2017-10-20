@@ -20,7 +20,7 @@ sections:
 - section_title: Credible collaborations
   section_text: 
   work:
-  - Melbourne Central
+  - 'Melbourne Central: correspondents program'
   - 'Skyn: supporting independent photography'
   layout: half-width
 layout: work
