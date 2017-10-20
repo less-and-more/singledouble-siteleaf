@@ -34,7 +34,7 @@
 
     </div>
 
-    {% assign sorted_work = (section.work | sort:"position") %}
+    {% assign sorted_work = section.work | sort:"position" %}
     {% for work in site.work %}
 
       {% for linked_work in sorted_work %}
@@ -112,7 +112,7 @@
 
     {% endif %}
 
-    {% assign sorted_work = (section.work | sort:"position") %}
+    {% assign sorted_work = section.work | sort:"position" %}
     {% for work in site.work %}
 
       {% for linked_work in sorted_work %}

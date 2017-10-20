@@ -30,7 +30,7 @@ defaults:
     path: ''
     type: people
   values:
-    layout: page
+    layout: default
     role: 
     image: 
     is_bw: 
@@ -38,7 +38,7 @@ defaults:
     path: ''
     type: work
   values:
-    layout: page
+    layout: default
     gallery:
     - image: 
       vimeo_id: 
