@@ -1,0 +1,58 @@
+---
+title: Single Double
+timezone: UTC
+collections:
+  people:
+    title: People
+    output: false
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+  work:
+    title: Work
+    output: false
+defaults:
+- scope:
+    path: ''
+    type: posts
+  values:
+    layout: post
+    permalink: "/posts/:title/"
+- scope:
+    path: ''
+    type: pages
+  values:
+    layout: page
+- scope:
+    path: ''
+    type: people
+  values:
+    layout: page
+    role: 
+    image: 
+    is_bw: 
+- scope:
+    path: ''
+    type: work
+  values:
+    layout: page
+    gallery:
+    - image: 
+      vimeo_id: 
+      is_bw: 
+permalink: pretty
+main_nav:
+- title: About
+  page: About
+- title: Work
+  page: Work
+- title: Us
+  page: Us
+- title: Contact
+  page: Contact
+sass:
+  sass_dir: assets/css/
+  style: compressed

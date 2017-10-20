@@ -1,0 +1,70 @@
+{% include head.html %}
+
+{% include header.html %}
+
+<div class="wrapper">
+
+  <div class="container">
+
+    <div class="flex-grid">
+      <div class="col-one-third">
+        {{ content }}
+      </div>
+      <div class="col-two-thirds push-left">
+        {{ page.partner_block_text | markdownify }}
+      </div>
+    </div>
+
+  </div>
+
+</div>
+
+{% for section in page.sections %}
+
+  {% if section.section_position == "left" %}
+
+    <div class="container centered">
+
+      <div class="flex-grid">
+        <div class="col-half">
+          <h1>{{ section.section_title}}</h1>
+        </div>
+        <div class="col-half push-left">
+          {{ section.section_text | markdownify }}
+        </div>
+      </div>
+
+      {% if section.section_image != '' %}
+        <img src="{{ section.section_image }}" alt=" " title=" " {% if section.is_bw == true %}class="grayscale"{% endif %} />
+      {% endif %}
+
+      {% if forloop.last == false || section.section_image != '' %}
+        <hr>
+      {% endif %}
+
+    </div>
+
+  {% else %}
+
+    <div class="container centered">
+
+      <div class="flex-grid">
+        <div class="col-half">
+          {{ section.section_text | markdownify }}
+        </div>
+        <div class="col-half push-left">
+          <h1>{{ section.section_title }}</h1>
+        </div>
+      </div>
+
+      {% if section.section_image != '' %}
+        <img src="{{ section.section_image }}" alt=" " title=" " {% if section.is_bw == true %}class="grayscale"{% endif %} />
+      {% endif %}
+
+    </div>
+
+  {% endif %}
+
+{% endfor %}
+
+{% include footer.html %}
