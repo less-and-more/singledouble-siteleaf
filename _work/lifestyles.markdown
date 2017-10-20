@@ -5,6 +5,12 @@ gallery:
 - image: "/uploads/sd-website-bust-optimised.png"
   vimeo_id: 
   is_bw: false
+- image: "/uploads/sd-website-thanksgiving.png"
+  vimeo_id: 
+  is_bw: 
+- image: "/uploads/sd-website-3310.png"
+  vimeo_id: 
+  is_bw: 
 - image: "/uploads/sd-website-pokemon-optimised.png"
   vimeo_id: 
   is_bw: false
