@@ -6,11 +6,11 @@ gallery:
   vimeo_id: 
   is_bw: false
 - image: 
-  vimeo_id: https://vimeo.com/209316506
-  is_bw: 
-- image: 
   vimeo_id: 
   is_bw: true
+- image: 
+  vimeo_id: https://vimeo.com/209316506
+  is_bw: 
 ---
 
 We made Lifestyles’ social media presence distinctive by making Lifestyles be the last thing a condom brand should be: unsexy. Rather than using aspirational imagery and titillating copy, we used humour, colourful illustration and sex positivity to talk to Lifestyles’ internet-native demographic in a way that reflected their real-world relationship to condoms. A friend rather than a role model.
