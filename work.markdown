@@ -20,4 +20,3 @@ sections:
 layout: work
 ---
 
-We produce content and manage communities for clients across many industries, establishing consistent brand voices and engaged, active audiences—no matter the tone or topic.
