@@ -14,7 +14,7 @@ sections:
 - section_title: Credible collaborations
   section_text: 
   work:
-  - Lifestyles
+  - 
   - Melbourne Central
   layout: half-width
 layout: work
