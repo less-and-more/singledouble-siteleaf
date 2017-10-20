@@ -5,7 +5,7 @@ gallery:
 - image: "/uploads/sd-website-bust.png"
   vimeo_id: 
   is_bw: false
-- image: 
+- image: "/uploads/sd-website-pokemon.png"
   vimeo_id: 
   is_bw: true
 - image: 
