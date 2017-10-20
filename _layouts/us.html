@@ -11,9 +11,9 @@
   </div>
 
   {% assign sorted_people = page.people %}
-  { for linked_person in sorted_people }
+  {% for linked_person in sorted_people %}
     {% for person in site.people %}
-      {% if linked_person == person.title %}
+      {% if linked_person.person == person.title %}
 
         <div class="flex-grid right-to-left">
           <div class="col-three-quarters">
