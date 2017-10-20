@@ -31,18 +31,18 @@ defaults:
     type: people
   values:
     layout: page
-    role:
-    image:
-    is_bw:
+    role: 
+    image: 
+    is_bw: 
 - scope:
     path: ''
     type: work
   values:
     layout: page
     gallery:
-    - image:
-      vimeo_id:
-      is_bw:
+    - image: 
+      vimeo_id: 
+      is_bw: 
 permalink: pretty
 main_nav:
 - title: About
