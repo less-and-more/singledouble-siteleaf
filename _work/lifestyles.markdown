@@ -2,13 +2,13 @@
 title: Lifestyles
 date: 2017-10-19 02:31:00 Z
 gallery:
-- image: "/uploads/RC11_Hero.jpg"
+- image: "/uploads/sd-website-bust.png"
   vimeo_id: 
+  is_bw: false
+- image: 
+  vimeo_id: https://vimeo.com/209316506
   is_bw: 
 - image: 
-  vimeo_id: 36158111
-  is_bw: 
-- image: "/uploads/RC11_Hero.jpg"
   vimeo_id: 
   is_bw: true
 ---
