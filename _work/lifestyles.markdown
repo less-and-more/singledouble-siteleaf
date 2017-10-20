@@ -15,7 +15,7 @@ gallery:
   vimeo_id: 
   is_bw: false
 - image: 
-  vimeo_id: 209316506
+  vimeo_id: 
   is_bw: 
 ---
 
