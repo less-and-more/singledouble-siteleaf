@@ -7,9 +7,9 @@ gallery:
   is_bw: false
 - image: "/uploads/sd-website-pokemon.png"
   vimeo_id: 
-  is_bw: true
+  is_bw: false
 - image: 
-  vimeo_id: https://vimeo.com/209316506
+  vimeo_id: 209316506
   is_bw: 
 ---
 
