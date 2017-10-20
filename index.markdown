@@ -2,7 +2,7 @@
 title: About
 date: 2017-08-03 06:22:00 Z
 position: 0
-header_video_file: "/uploads/sd-header-video-720.mp4"
+header_video_file: "/uploads/sd-header-video.mp4"
 partner_block_text: |-
   ## We’ve doubled up with:
 

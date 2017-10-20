@@ -23,9 +23,11 @@
 <div id="about"></div>
 {% for section in page.sections %}
 
+  <div class="container centered">
+
   {% if section.section_position == "left" %}
 
-    <div class="container centered">
+    
 
       <div class="flex-grid">
         <div class="col-half">
@@ -40,15 +42,7 @@
         <img src="{{ section.section_image }}" alt=" " title=" " {% if section.is_bw == true %}class="grayscale"{% endif %} />
       {% endif %}
 
-      {% if forloop.last == false or section.section_image != '' %}
-        <hr>
-      {% endif %}
-
-    </div>
-
   {% else %}
-
-    <div class="container centered">
 
       <div class="flex-grid right-to-left">
         <div class="col-half">
@@ -63,9 +57,13 @@
         <img src="{{ section.section_image }}" alt=" " title=" " {% if section.is_bw == true %}class="grayscale"{% endif %} />
       {% endif %}
 
-    </div>
-
   {% endif %}
+
+  {% unless forloop.last %}
+    <hr>
+  {% endunless %}
+
+  </div>
 
 {% endfor %}
 
