@@ -10,7 +10,7 @@ sections:
   work:
   - Lifestyles
   - Builders Academy
-  layout: half-width
+  layout: full-width
 - section_title: Credible collaborations
   section_text: 
   work:

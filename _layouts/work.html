@@ -17,7 +17,7 @@
         <div class="flex-grid">
 
           <div class="col-half">
-            {{ section.section_title | markdownify }}
+            <h1>{{ section.section_title }}</h1>
           </div>
           <div class="col-half push-left">
             {{ section.section_text | markdownify }}
@@ -28,7 +28,7 @@
       </div>
 
     {% else %}
-    
+
     <div class="container">
 
       <hr>
