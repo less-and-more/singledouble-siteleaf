@@ -39,10 +39,9 @@
 
     {% endif %}
 
-    {% assign sorted_work = section.work | sort:"position" %}
-    {% for work in site.work %}
-
-      {% for linked_work in sorted_work %}
+    {% assign sorted_work = section.work %}
+    {% for linked_work in sorted_work %}
+      {% for work in site.work %}
 
         {% if linked_work == work.title %}
 
@@ -126,10 +125,9 @@
 
     {% endif %}
 
-    {% assign sorted_work = section.work | sort:"position" %}
-    {% for work in site.work %}
-
-      {% for linked_work in sorted_work %}
+    {% assign sorted_work = section.work %}
+    {% for linked_work in sorted_work %}
+      {% for work in site.work %}
 
         {% if linked_work == work.title %}
 
