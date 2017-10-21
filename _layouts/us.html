@@ -21,7 +21,9 @@
             {{ person.content }}
           </div>
           <div class="col-one-quarter push-left">
-            <img src="{{ person.image }}" alt=" " title=" " {% if person.is_bw == true %}class="grayscale"{% endif %} />
+            {% if person.image != nil %}
+              <img src="{{ person.image }}" alt=" " title=" " {% if person.is_bw == true %}class="grayscale"{% endif %} />
+            {% endif %}
           </div>
         </div>
       {% endif %}
