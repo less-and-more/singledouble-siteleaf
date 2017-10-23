@@ -3,10 +3,7 @@ title: About
 date: 2017-08-03 06:22:00 Z
 position: 0
 header_video_file: "/uploads/sd-header-video.mp4"
-partner_block_text: |-
-  ## We’ve doubled up with:
-
-  We’re named Single Double because we create singular messages in partnership with our clients. One letter, two writers—a single and a double.
+partner_block_text: "## We’ve doubled up with:"
 sections:
 - section_title: Everything starts with writing
   section_text: |-
