@@ -4,6 +4,7 @@ date: 2017-08-03 06:22:00 Z
 position: 0
 header_video_file: "/uploads/sd-header-video.mp4"
 partner_block_text: "## We’ve doubled up with:"
+partner_block_image: 
 sections:
 - section_title: Everything starts with writing
   section_text: |-
